@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    /* The emitted JavaScript should be ES 2015. */
+    "target": "es2016",
+
+    /* Modules */
+    /* Using Node's native ES Modules support. */
+    "module": "NodeNext",
+
+    /* Source files will be located in an `src` folder. */
+    "rootDir": "src",
+
+    /* Using Node's ES Modules support for the module resolution strategy. */
+    "moduleResolution": "NodeNext",
+
+    /* Create source map files for emitted JavaScript files. */
+    "sourceMap": true,
+
+    /* Emitted JS files will go in a `dist` folder. */
+    "outDir": "dist",
+
+    /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    /* For more details on this one: https://www.typescriptlang.org/tsconfig#esModuleInterop*/
+    "esModuleInterop": true,
+
+    /* Ensure that casing is correct in imports. */
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    /* Enable all strict type-checking options. */
+    "strict": true,
+
+    /* Completeness */
+    /* Skip type checking for all .d.ts files. */
+    "skipLibCheck": true
+  }
+}
